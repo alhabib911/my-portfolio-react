@@ -94,16 +94,17 @@
     border: 1px solid #b3b3b3;
     border-radius: 5px;
 }
-.message-submit-button {
+.message-submit-button{
+    width: 20%;
     display: flex;
-    justify-content: center;
-    width: 30%;
+    align-items: center;
     border: 1px solid #077DE5;
+    padding: 4px 32px;
     border-radius: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     cursor: pointer;
+    color: #077DE5;
 }
 .message-submit-button input{
-    padding: 7px;
     cursor: pointer;
 }

@@ -29,13 +29,15 @@
     margin-right: 5px;
 }
 .profile-container-button{
+    display: flex;
+    align-items: center;
     margin-top: 25px;
 }
 .hire-me{
     margin-right: 15px;
     background-color: #077DE5;
     color: #fff;
-    padding: 8px 18px;
+    padding: 11px 18px;
     border-radius: 5px;
 }
 .hire-me:hover{
@@ -46,9 +48,17 @@
     border-radius: 5px;
 }
 .resume-dwn-btn{
+    
+}
+.resume-download-section{
+    display: flex;
+    align-items: center;
     margin-right: 15px;
     border: 1px solid #077DE5;
     color: #077DE5;
     padding: 8px 18px;
     border-radius: 5px;
+}
+.resume-dwn-btn{
+    margin-left: 5px;
 }

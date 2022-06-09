@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'
 import Resume from '../../image/RESUME OF ABDULLAH AL HABIB.pdf'
-import MyImage from '../../image/logoImg.png'
+import { FiDownload } from 'react-icons/fi';
+import logoImage from '../../image/logoImg.png'
 
 const Navbar = () => {
     return (
@@ -22,8 +23,13 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="portfolio-logo">
+                        <div class="avatar">
+                            <div class="w-8 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                                <img src={logoImage} />
+                            </div>
+                        </div>
                         <div className='logo-title'>
-                                <a href="/home">HABIB.</a>
+                            <a href="/home">HABIB.</a>
                         </div>
                     </div>
                 </div>
@@ -33,7 +39,10 @@ const Navbar = () => {
                         <li><Link to='/about'>About</Link></li>
                         <li><Link to='/project'>Project</Link></li>
                         <li><Link to='/contact'>Contact</Link></li>
-                        <a className='resume-dwn' href={Resume} download>Download Resume</a>
+                        <div className='download-resume-section'>
+                            <FiDownload />
+                            <a className='resume-dwn' href={Resume} download>Download Resume</a>
+                        </div>
                     </ul>
                 </div>
             </div>

@@ -9,6 +9,21 @@
     font-size: 27px;
     font-weight: 700;
     color: #077DE5;
-    margin-left: 18px;
-
+    margin-left: 10px;
+}
+.download-resume-section{
+    display: flex;
+    align-items: center;
+    border: 1px solid #59A7EC;
+    padding: 0 10px 0 10px;
+    border-radius: 5px;
+    color: #077DE5;
+    margin-top: 7px;
+}
+.resume-dwn{
+    margin-left: 5px;
+}
+.portfolio-logo{
+    display: flex;
+    align-items: center;
 }

@@ -4,6 +4,7 @@ import MyImage from '../../image/ProfilePhoto.png'
 import TypeAnimation from 'react-type-animation';
 import Resume from '../../image/RESUME OF ABDULLAH AL HABIB.pdf'
 import { Link } from 'react-router-dom';
+import { FiDownload } from 'react-icons/fi';
 
 const Profile = () => {
     return (
@@ -27,8 +28,13 @@ const Profile = () => {
                         />
                     </div>
                     <div className="profile-container-button">
-                        <Link className='hire-me' to='/'>Hire Me</Link>
-                        <a className='resume-dwn-btn' href={Resume} download>Download Resume</a>
+                        <div className="hire-me-btn">
+                            <Link className='hire-me' to='/contact'>Hire Me</Link>
+                        </div>
+                        <div className="resume-download-section">
+                            <FiDownload />
+                            <a className='resume-dwn-btn' href={Resume} download>Download Resume</a>
+                        </div>
                     </div>
 
                 </div>

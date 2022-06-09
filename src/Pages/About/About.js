@@ -2,12 +2,13 @@ import React from 'react';
 import './About.css'
 import AboutImage from '../../image/AboutImage.png'
 import Resume from '../../image/RESUME OF ABDULLAH AL HABIB.pdf'
-
+import { FiDownload } from 'react-icons/fi';
+import { AiFillGithub } from 'react-icons/ai';
 
 
 const About = () => {
     return (
-        
+
         <div className='about-container'>
             <div className="about-title">
                 <h2>About Me</h2>
@@ -22,8 +23,14 @@ const About = () => {
                 </div>
             </div>
             <div className="about-link-section">
-                <a className='github-link' target='_blank' href="https://github.com/alhabib911">GitHub</a>
-                <a className='resume-dwn-link' href={Resume} download>Download Resume</a>
+                <div className="github-link">
+                    <AiFillGithub />
+                    <a className='github-btn' target='_blank' href="https://github.com/alhabib911">GitHub</a>
+                </div>
+                <div className="resume-download-section">
+                    <FiDownload />
+                    <a className='resume-dwn-btn' href={Resume} download>Download Resume</a>
+                </div>
             </div>
         </div>
     );

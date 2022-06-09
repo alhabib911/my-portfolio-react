@@ -9,6 +9,7 @@ import './ContactUs.css'
 import emailjs from '@emailjs/browser';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { FiSend } from 'react-icons/fi';
 
 const ContactUs = () => {
     const form = useRef();
@@ -85,6 +86,7 @@ const ContactUs = () => {
                     <label>Message</label><br />
                     <textarea name="message" /><br /> <br />
                     <div className='message-submit-button'>
+                        <FiSend/>
                         <input type="submit" value="Send" />
                     </div>
                 </form>

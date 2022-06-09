@@ -40,8 +40,14 @@
     border-radius: 5px;
 }
 .github-link{
+    display: flex;
+    align-items: center;
     background-color: #077DE5;
     color: #fff;
     padding: 8px 18px;
     border-radius: 5px;
+    margin-right: 15px;
+}
+.github-btn{
+    margin-left: 5px;
 }

@@ -1,0 +1,81 @@
+.footer{
+    background-color: #fff;
+
+}
+.footer-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 35px;
+}
+
+.portfolio-logo{
+    width: 30%;
+}
+.logo-title-text{
+    font-size: 27px;
+    font-weight: 700;
+    color: #1F2937;
+    margin-left: 10px;
+}
+.footer-text p{
+    margin-top: 25px;
+    font-size: 20px;
+}
+.social-media{
+    margin-top: 20px;
+    display: flex;
+    font-size: 26px;
+    gap: 8px;
+}
+.navigation{
+    width: 35%;
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+}
+.navigation h5{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+.navigation a{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 0 0 0;
+}
+.newsletter{
+    width: 35%;
+    margin-left: 50px;
+}
+.newsletter h5{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+.newsletter-form input{
+    width: 140%;
+    padding: 10px;
+}
+.newsletter-button{
+    display: flex;
+    font-size: 16px;
+    border-radius: 5px;
+    align-items: center;
+    width: 50%;
+    border: 1px solid #077DE5;
+    color: #077DE5;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.newsletter-button input{
+    cursor: pointer;
+}
+.copyright-area{
+    background-color: #F8F9FA;
+    margin-top: 15px;
+    padding: 15px;
+}
+.copyright-area p{
+    text-align: center;
+}

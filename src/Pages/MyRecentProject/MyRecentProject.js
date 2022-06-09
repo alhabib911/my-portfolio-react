@@ -5,6 +5,8 @@ import kelongMob from '../../image/Project/KelongMob.png'
 import ZMDex from '../../image/Project/ZMDex.png'
 import ZMMob from '../../image/Project/ZMMob.png'
 import DentalDex from '../../image/Project/DentalDex.png'
+import { AiFillGithub } from 'react-icons/ai';
+import { AiFillEye } from 'react-icons/ai';
 
 const MyRecentProject = () => {
     return (
@@ -22,8 +24,14 @@ const MyRecentProject = () => {
                         <h2 class="card-title">Kelong-Group</h2>
                         <p>A full-stack responsive Manufacturer Website. Customer can order products, also make a review and admin can access product and order management.</p>
                         <div class="card-actions">
-                            <a className='github-link' target='_blank' href="https://github.com/alhabib911/whole-sale-website-fontend">GitHub</a>
-                            <a className='resume-dwn-link' target='_blank' href='https://kelong-group.web.app/' download>Live Site</a>
+                            <div className="github-link">
+                                <AiFillGithub />
+                                <a className='github-btn' target='_blank' href="https://github.com/alhabib911/whole-sale-website-fontend">GitHub</a>
+                            </div>
+                            <div className="live-server">
+                                <AiFillEye />
+                                <a className='live-server-link' target='_blank' href='https://kelong-group.web.app/'>Live Site</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -36,8 +44,14 @@ const MyRecentProject = () => {
                         <h2 class="card-title">Zayn & Myza Warehouse Management</h2>
                         <p>A full-stack responsive Warehouse Management Website. User can update product and also see their own upload product and also update, Edit and delete access. </p>
                         <div class="card-actions">
-                            <a className='github-link' target='_blank' href="https://github.com/alhabib911/warehouse-managenent-website-fontend">GitHub</a>
-                            <a className='resume-dwn-link' target='_blank' href='https://zayn-9e9756.web.app/' download>Live Site</a>
+                            <div className="github-link">
+                                <AiFillGithub />
+                                <a className='github-btn' target='_blank' href="https://github.com/alhabib911/warehouse-managenent-website-fontend">GitHub</a>
+                            </div>
+                            <div className="live-server">
+                                <AiFillEye />
+                                <a className='live-server-link' target='_blank' href='https://zayn-9e9756.web.app/'>Live Site</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -49,13 +63,17 @@ const MyRecentProject = () => {
                         <h2 class="card-title">Jackson Dental Care</h2>
                         <p>Client interface website is Jackson Dental Care. Without user access cannot go to checkout page</p>
                         <div class="card-actions">
-                            <a className='github-link' target='_blank' href="https://github.com/alhabib911/jackson-dental-care-client-side">GitHub</a>
-                            <a className='resume-dwn-link' target='_blank' href='https://jackson-dental-care.web.app/' download>Live Site</a>
+                        <div className="github-link">
+                                <AiFillGithub />
+                                <a className='github-btn' target='_blank' href="https://github.com/alhabib911/jackson-dental-care-client-side">GitHub</a>
+                            </div>
+                            <div className="live-server">
+                                <AiFillEye />
+                                <a className='live-server-link' target='_blank' href='https://jackson-dental-care.web.app/'>Live Site</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
-                
             </div>
         </div>
     );
