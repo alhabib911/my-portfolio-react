@@ -80,50 +80,30 @@
 .contact-form{
     width: 60%;
 }
-/* .form-name {
-    width: 100%;
-}
-.form-name input{
-    width: 90%;
-    padding: 4px 0;
-}
-.form-email {
-    width: 100%;
-}
-.form-email input {
-    width: 100%;
-    padding: 4px 0;
-}
-.name-email{
-    display: flex;
-}
-.sub{
-    margin-top: 15px;
-}
-.sub input{
-    width: 100%;
-    padding: 4px 0;
-}
-.text{
-    margin-top: 15px;
-}
-.text textarea{
-    width: 100%;
-    padding: 4px 0;
-}
 .contact-form input{
-    border: 1px solid #cccccc;
-    border-radius: 5px;
+    width: 80%;
+    padding: 4px 0;
 }
 .contact-form textarea{
-    border: 1px solid #cccccc;
+    width: 80%;
+    padding: 6px 0;
+    border: 1px solid #b3b3b3;
     border-radius: 5px;
 }
-.message-send-button{
-    margin-top: 15px;
-    padding: 10px;
-    border: 1px solid #079AEB;
+.name-email{
+    border: 1px solid #b3b3b3;
     border-radius: 5px;
-    margin-bottom: 50px;
-} */
-
+}
+.message-submit-button {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    border: 1px solid #077DE5;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.message-submit-button input{
+    padding: 7px;
+    cursor: pointer;
+}
