@@ -1,19 +1,34 @@
+.skill{
+    background-color: #F8F9FA;
+    padding: 15px 0 70px 0;
+}
+h6{
+    font-size: 28px;
+    font-weight: 600;
+    color: #077DE5;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.skill-name small{
+    margin-left: 50px;
+}
 .skill-container{
-    width: 80%;
+    width: 100%;
     margin: auto;
-    background-color: #216951;
 }
 .container {
     width: 100%;
 }
 .skill-section{
-    width: 30%;
+    width: 85%;
 }
 .progress-bar-details{
     width: 80%;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 25px;
 }
 
 .progress {
@@ -28,7 +43,7 @@
     transition-property: width, background-color;
 }
 
-.progress-striped .progress-bar {
+.progress-striped .progress-bar-1 {
     background-color: #006AA6;
     width: 80%;
     background-image: linear-gradient(45deg,
@@ -39,15 +54,233 @@
             #0083B0 75%,
             transparent 75%,
             transparent);
-    animation: progressAnimationStrike 6s;
+    animation: progressAnimationStrike-1 6s;
 }
-
-@keyframes progressAnimationStrike {
+@keyframes progressAnimationStrike-1 {
     from {
         width: 0;
     }
 
     to {
         width: 80%;
+    }
+}
+.progress-striped .progress-bar-2 {
+    background-color: #006AA6;
+    width: 80%;
+    background-image: linear-gradient(45deg,
+            #00B4DB 25%,
+            transparent 25%,
+            transparent 50%,
+            #00B4DB 50%,
+            #0083B0 75%,
+            transparent 75%,
+            transparent);
+    animation: progressAnimationStrike-2 6s;
+}
+@keyframes progressAnimationStrike-2 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 80%;
+    }
+}
+.progress-striped .progress-bar-3 {
+    background-color: #006AA6;
+    width: 75%;
+    background-image: linear-gradient(45deg,
+            #00B4DB 25%,
+            transparent 25%,
+            transparent 50%,
+            #00B4DB 50%,
+            #0083B0 75%,
+            transparent 75%,
+            transparent);
+    animation: progressAnimationStrike-3 6s;
+}
+@keyframes progressAnimationStrike-3 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 75%;
+    }
+}
+.progress-striped .progress-bar-4 {
+    background-color: #006AA6;
+    width: 75%;
+    background-image: linear-gradient(45deg,
+            #00B4DB 25%,
+            transparent 25%,
+            transparent 50%,
+            #00B4DB 50%,
+            #0083B0 75%,
+            transparent 75%,
+            transparent);
+    animation: progressAnimationStrike-4 6s;
+}
+@keyframes progressAnimationStrike-4 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 75%;
+    }
+}
+.progress-striped .progress-bar-5 {
+    background-color: #006AA6;
+    width: 95%;
+    background-image: linear-gradient(45deg,
+            #00B4DB 25%,
+            transparent 25%,
+            transparent 50%,
+            #00B4DB 50%,
+            #0083B0 75%,
+            transparent 75%,
+            transparent);
+    animation: progressAnimationStrike-5 6s;
+}
+@keyframes progressAnimationStrike-5 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 95%;
+    }
+}
+.progress-striped .progress-bar-6 {
+    background-color: #006AA6;
+    width: 90%;
+    background-image: linear-gradient(45deg,
+            #00B4DB 25%,
+            transparent 25%,
+            transparent 50%,
+            #00B4DB 50%,
+            #0083B0 75%,
+            transparent 75%,
+            transparent);
+    animation: progressAnimationStrike-6 6s;
+}
+@keyframes progressAnimationStrike-6 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 90%;
+    }
+}
+.progress-striped .progress-bar-7 {
+    background-color: #006AA6;
+    width: 80%;
+    background-image: linear-gradient(45deg,
+            #00B4DB 25%,
+            transparent 25%,
+            transparent 50%,
+            #00B4DB 50%,
+            #0083B0 75%,
+            transparent 75%,
+            transparent);
+    animation: progressAnimationStrike-7 6s;
+}@keyframes progressAnimationStrike-7 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 80%;
+    }
+}
+.progress-striped .progress-bar-8 {
+    background-color: #006AA6;
+    width: 85%;
+    background-image: linear-gradient(45deg,
+            #00B4DB 25%,
+            transparent 25%,
+            transparent 50%,
+            #00B4DB 50%,
+            #0083B0 75%,
+            transparent 75%,
+            transparent);
+    animation: progressAnimationStrike-7 6s;
+}@keyframes progressAnimationStrike-7 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 85%;
+    }
+}
+.progress-striped .progress-bar-11 {
+    background-color: #006AA6;
+    width: 90%;
+    background-image: linear-gradient(45deg,
+            #00B4DB 25%,
+            transparent 25%,
+            transparent 50%,
+            #00B4DB 50%,
+            #0083B0 75%,
+            transparent 75%,
+            transparent);
+    animation: progressAnimationStrike-11 6s;
+}@keyframes progressAnimationStrike-11 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 90%;
+    }
+}
+.progress-striped .progress-bar-9 {
+    background-color: #006AA6;
+    width: 75%;
+    background-image: linear-gradient(45deg,
+            #00B4DB 25%,
+            transparent 25%,
+            transparent 50%,
+            #00B4DB 50%,
+            #0083B0 75%,
+            transparent 75%,
+            transparent);
+    animation: progressAnimationStrike-9 6s;
+}
+
+@keyframes progressAnimationStrike-9 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 75%;
+    }
+}
+.progress-striped .progress-bar-10 {
+    background-color: #006AA6;
+    width: 70%;
+    background-image: linear-gradient(45deg,
+            #00B4DB 25%,
+            transparent 25%,
+            transparent 50%,
+            #00B4DB 50%,
+            #0083B0 75%,
+            transparent 75%,
+            transparent);
+    animation: progressAnimationStrike-10 6s;
+}
+
+@keyframes progressAnimationStrike-10 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 70%;
     }
 }
