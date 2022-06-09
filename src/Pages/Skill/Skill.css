@@ -1,0 +1,53 @@
+.skill-container{
+    width: 80%;
+    margin: auto;
+    background-color: #216951;
+}
+.container {
+    width: 100%;
+}
+.skill-section{
+    width: 30%;
+}
+.progress-bar-details{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress {
+    background: #dddddd;
+    display: flex;
+}
+
+.progress-bar {
+    height: 18px;
+    background-color: #ee303c;
+    transition: 0.4s linear;
+    transition-property: width, background-color;
+}
+
+.progress-striped .progress-bar {
+    background-color: #006AA6;
+    width: 80%;
+    background-image: linear-gradient(45deg,
+            #00B4DB 25%,
+            transparent 25%,
+            transparent 50%,
+            #00B4DB 50%,
+            #0083B0 75%,
+            transparent 75%,
+            transparent);
+    animation: progressAnimationStrike 6s;
+}
+
+@keyframes progressAnimationStrike {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 80%;
+    }
+}

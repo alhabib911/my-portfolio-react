@@ -1,0 +1,54 @@
+.header{
+    background-color: #F8F9FA;
+}
+.profile-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.type-animition{
+    font-size: 28px;
+}
+.welcome-title{
+    font-size: 26px;
+}
+.name{
+    font-size: 52px;
+    font-weight: 600;
+    color: #077DE5;
+}
+.profile-img-container img{
+    width: 400px;
+    margin-bottom: 70px;
+}
+.type-animition{
+    display: flex;
+}
+.type-animition p{
+    margin-right: 5px;
+}
+.profile-container-button{
+    margin-top: 25px;
+}
+.hire-me{
+    margin-right: 15px;
+    background-color: #077DE5;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 5px;
+}
+.hire-me:hover{
+    margin-right: 15px;
+    background-color: #00549e;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 5px;
+}
+.resume-dwn-btn{
+    margin-right: 15px;
+    border: 1px solid #077DE5;
+    color: #077DE5;
+    padding: 8px 18px;
+    border-radius: 5px;
+}
