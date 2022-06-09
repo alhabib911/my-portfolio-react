@@ -34,7 +34,7 @@ const MyRecentProject = () => {
                     </div>
                     <div class="card-body items-center text-center">
                         <h2 class="card-title">Zayn & Myza Warehouse Management</h2>
-                        <p>A full-stack responsive Warehouse Management Website. User can update product and also see their own upload product and also update and delete access. </p>
+                        <p>A full-stack responsive Warehouse Management Website. User can update product and also see their own upload product and also update, Edit and delete access. </p>
                         <div class="card-actions">
                             <a className='github-link' target='_blank' href="https://github.com/alhabib911/warehouse-managenent-website-fontend">GitHub</a>
                             <a className='resume-dwn-link' target='_blank' href='https://zayn-9e9756.web.app/' download>Live Site</a>

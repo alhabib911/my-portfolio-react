@@ -1,21 +1,21 @@
 import { Route, Routes } from 'react-router-dom';
+import AboutMe from './AboutMe/AboutMe';
 import './App.css';
-import About from './Pages/About/About';
+import GetInTouch from './GetInTouch/GetInTouch';
+import MyAllProjects from './MyAllProjects/MyAllProjects';
 import ContactUs from './Pages/ContactUs/ContactUs';
-import Header from './Pages/Header/Header';
+import Home from './Pages/Home/Home';
 import MyRecentProject from './Pages/MyRecentProject/MyRecentProject';
-import Skill from './Pages/Skill/Skill';
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <About></About>
-      <Skill></Skill>
-      <MyRecentProject></MyRecentProject>
-      <ContactUs></ContactUs>
       <Routes>
-        <Route path='/'>Home</Route>
+      <Route path='/' element={<Home></Home>}></Route>
+      <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/about' element = {<AboutMe></AboutMe>}></Route>
+        <Route path='/project' element = {<MyAllProjects></MyAllProjects>}></Route>
+        <Route path='/contact' element ={<GetInTouch></GetInTouch>}></Route>
       </Routes>
     </div>
   );

@@ -6,7 +6,6 @@
     font-weight: 600;
     color: #077DE5;
     text-align: center;
-    margin-top: 30px;
     margin-bottom: 30px;
     padding-top: 30px;
 }
@@ -81,7 +80,7 @@
 .contact-form{
     width: 60%;
 }
-.form-name {
+/* .form-name {
     width: 100%;
 }
 .form-name input{
@@ -126,4 +125,5 @@
     border: 1px solid #079AEB;
     border-radius: 5px;
     margin-bottom: 50px;
-}
+} */
+

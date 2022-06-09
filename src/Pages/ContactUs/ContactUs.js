@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { MdPhone } from 'react-icons/md';
 import { AiOutlineMail } from 'react-icons/ai';
 import { TbLocation } from 'react-icons/tb';
@@ -6,8 +6,20 @@ import { BsLinkedin } from 'react-icons/bs';
 import { AiFillFacebook } from 'react-icons/ai';
 import { BsGithub } from 'react-icons/bs';
 import './ContactUs.css'
+import emailjs from '@emailjs/browser';
 
 const ContactUs = () => {
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_9sa5s6g', 'template_oebzn9h', form.current, 'gRQt21wdg0IrHYKQS')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
     return (
         <div className='contact-container'>
             <div className="contact-page-title">
@@ -56,28 +68,14 @@ const ContactUs = () => {
                         </div>
                     </div>
                 </div>
-                <form className="contact-form">
-                    <div className="name-email">
-                        <div className="form-name">
-                            <label htmlFor="name">Name</label> <br />
-                            <input type="text" name="name" id="" /> <br />
-                        </div>
-                        <div className="form-email">
-                            <label htmlFor="email">Email</label> <br />
-                            <input type="email" name="email" id="" />
-                        </div>
-                    </div>
-                    <div className="sub-text">
-                        <div className="sub">
-                            <label htmlFor="sub">Subject</label> <br />
-                            <input type="text" name="sub" id="" />
-                        </div>
-                        <div className="text">
-                            <label htmlFor="text">Message *</label> <br />
-                            <textarea name="text" id="" ></textarea>
-                        </div>
-                    </div>
-                    <button className='message-send-button' type="submit">Send Message</button>
+                <form ref={form} onSubmit={sendEmail}>
+                    <label>Name</label>
+                    <input type="text" name="user_name" />
+                    <label>Email</label>
+                    <input type="email" name="user_email" />
+                    <label>Message</label>
+                    <textarea name="message" />
+                    <input type="submit" value="Send" />
                 </form>
             </div>
         </div>

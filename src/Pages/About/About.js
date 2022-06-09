@@ -7,6 +7,7 @@ import Resume from '../../image/RESUME OF ABDULLAH AL HABIB.pdf'
 
 const About = () => {
     return (
+        
         <div className='about-container'>
             <div className="about-title">
                 <h2>About Me</h2>
@@ -16,7 +17,7 @@ const About = () => {
                     <img src={AboutImage} alt="" />
                 </div>
                 <div className="about-details">
-                    <p>Hello! I'm Fahim, a programmer with a good level of expertise in Front-End Web Development. I'm currently studying at Imperial College of Engineering pursuing a degree BSc Engineering in Computer Science & Engineering under Rajshahi University. I'm a tech lover and like to write blogs about programming and web development. I'm interested in MERN (MongoDB, ExpressJS, ReactJS, NodeJS) stack web development. <br /> <br />
+                    <p>Hello! I am a MERN-Stack developer. I love to use my creativity and make something new. So I love to do new projects with JavaScript's Framework React JS and Tailwind or Bootstrap's Library. I like working with Raw CSS. Over the last 6 months, I gather knowledge in various parts of web development by myself. My ultimate goal is to become an awesome full-stack web developer who can make beautiful UIs and also can handle the back-end smoothly. <br /> <br />
                         I am a hardworking, confident, enthusiastic Web developer and I want to utilize my knowledge and personal skills in Web Development. Also eagerly wants to serve a professional organization to the best of my knowledge with true dedication, hard work, and commitment. I am down to earth honest, confident, fun loving and caring as well.</p>
                 </div>
             </div>
