@@ -1,0 +1,129 @@
+.contact-container{
+    background-color: #F8F9FA;
+}
+.contact-page-title h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: #077DE5;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.contact-section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}   
+.info-icon{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.social-network{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    text-align: center;
+}
+.linkedin{
+    padding: 10px 0 0 10px;
+    font-size: 26px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 15px;
+}
+.fb{
+    padding: 10px 0 0 10px;
+    font-size: 26px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: inline-block;
+}
+.github{
+    padding: 10px 0 0 10px;
+    font-size: 26px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #4A5055;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 15px;
+}
+.icon-details{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.icon{
+    margin: 4px 10px 0 0;
+    padding: 10px 0 0 10px;
+    font-size: 26px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: inline-block;
+}
+.info h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+.info p{
+    font-weight: 600;
+}
+.contact-form{
+    width: 60%;
+}
+.form-name {
+    width: 100%;
+}
+.form-name input{
+    width: 90%;
+    padding: 4px 0;
+}
+.form-email {
+    width: 100%;
+}
+.form-email input {
+    width: 100%;
+    padding: 4px 0;
+}
+.name-email{
+    display: flex;
+}
+.sub{
+    margin-top: 15px;
+}
+.sub input{
+    width: 100%;
+    padding: 4px 0;
+}
+.text{
+    margin-top: 15px;
+}
+.text textarea{
+    width: 100%;
+    padding: 4px 0;
+}
+.contact-form input{
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+.contact-form textarea{
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+.message-send-button{
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #079AEB;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
