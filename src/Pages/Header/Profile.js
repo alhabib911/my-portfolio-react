@@ -10,7 +10,7 @@ const Profile = () => {
     return (
         <div className="header">
             <div className='profile-container '>
-                <div className="profile-title-container mt-40">
+                <div className="profile-title-container">
                     <h3 className='welcome-title'>Hi, I am</h3>
                     <h1 className='name'>Abdullah Al Habib</h1>
                     <div className='type-animition'>

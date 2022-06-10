@@ -28,6 +28,9 @@
 .type-animition p{
     margin-right: 5px;
 }
+.profile-title-container{
+    margin-top: 100px;
+}
 .profile-container-button{
     display: flex;
     align-items: center;
@@ -61,4 +64,94 @@
 }
 .resume-dwn-btn{
     margin-left: 5px;
+}
+
+
+/* 376px to Max- 425px Mobile View */
+@media only screen and (max-width: 425px) {
+    .profile-container {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction:column-reverse ;
+        justify-content: space-between;
+    }
+    .profile-title-container{
+        margin-top: 0px;
+    }
+    .name {
+        font-size: 36px;
+        font-weight: 600;
+        color: #077DE5;
+    }
+    .type-animition{
+        font-size: 20px;
+    }
+    .profile-container-button {
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+/* 426px to Max- 768px Mobile View */
+@media only screen and (min-width:426px) and (max-width:768px) {
+    .profile-container {
+        width: 50%;
+        margin: auto;
+        display: flex;
+        flex-direction:column-reverse ;
+        justify-content: space-between;
+    }
+    .profile-img-container img {
+        width: 305px;
+        /* margin-bottom: 70px; */
+    }
+    .profile-title-container{
+        margin-top: 0px;
+    }
+    .name {
+        font-size: 36px;
+        font-weight: 600;
+        color: #077DE5;
+    }
+    .type-animition{
+        font-size: 20px;
+    }
+    .profile-container-button {
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+/* 769px to Max- 992px Tablet View */
+@media only screen and (min-width:769px) and (max-width:992px) {
+    .profile-container {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .profile-img-container img {
+        width: 305px;
+        margin-left: 40px;
+    }
+    .profile-title-container{
+        margin-top: 96px;
+    }
+    .name {
+        font-size: 36px;
+        font-weight: 600;
+        color: #077DE5;
+    }
+    .type-animition{
+        font-size: 20px;
+    }
+    .profile-container-button {
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
 }

@@ -117,3 +117,168 @@
 .message-submit-button input{
     cursor: pointer;
 }
+
+/* 376px to Max- 425px Mobile View */
+@media only screen and (max-width: 425px) {
+    .contact-section {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .icon {
+        margin: 4px 10px 0 0;
+        padding: 14px 13px 0px 14px;
+        font-size: 21px;
+        height: 50px;
+        width: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .linkedin {
+        padding: 11px 13px 0 13px;
+        font-size: 26px;
+        height: 50px;
+        width: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .fb {
+        padding: 11px 13px 0 13px;
+        font-size: 26px;
+        height: 50px;
+        width: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .github {
+        padding: 11px 13px 0 13px;
+        font-size: 26px;
+        height: 50px;
+        width: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .contact-form {
+        width: 60%;
+        margin-top: 20px;
+    }
+    .contact-form input {
+        width: 150%;
+        padding: 4px 0;
+    }
+    .contact-form textarea {
+        width: 150%;
+        padding: 6px 0;
+        border: 1px solid #b3b3b3;
+        border-radius: 5px;
+    }
+    .message-submit-button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        border: 1px solid #077DE5;
+        padding: 4px 70px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+        cursor: pointer;
+        color: #077DE5;
+    }
+}
+/* 426px to Max- 768px Mobile View */
+@media only screen and (min-width:426px) and (max-width:768px) {
+    .contact-section {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icon {
+        margin: 4px 10px 0 0;
+        padding: 8px 15px 8px 9px;
+        font-size: 21px;
+        height: 40px;
+        width: 40px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .linkedin {
+        padding: 11px 13px 0 13px;
+        font-size: 26px;
+        height: 50px;
+        width: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .fb {
+        padding: 11px 13px 0 13px;
+        font-size: 26px;
+        height: 50px;
+        width: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .github {
+        padding: 11px 13px 0 13px;
+        font-size: 26px;
+        height: 50px;
+        width: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .contact-form {
+        width: 60%;
+        margin-top: 20px;
+    }
+    .contact-form input {
+        width: 100%;
+        padding: 4px 0;
+    }
+    .contact-form textarea {
+        width: 100%;
+        padding: 6px 0;
+        border: 1px solid #b3b3b3;
+        border-radius: 5px;
+    }
+    .message-submit-button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        border: 1px solid #077DE5;
+        padding: 4px 150px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+        cursor: pointer;
+        color: #077DE5;
+    }
+}
+/* 769px to Max- 992px Tablet View */
+@media only screen and (min-width:769px) and (max-width:992px) {
+    .message-submit-button {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        border: 1px solid #077DE5;
+        padding: 4px 32px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+        cursor: pointer;
+        color: #077DE5;
+    }
+}
