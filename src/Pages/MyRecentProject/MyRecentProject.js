@@ -63,7 +63,7 @@ const MyRecentProject = () => {
                         </div>
                         <div className="view-details">
                                 <BsArrowUpRightSquare />
-                                <a className='live-server-link' target='_blank' href='https://kelong-group.web.app/'>View Details</a>
+                                <Link className='live-server-link' to='/zm  '>View Details</Link>
                             </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@ const MyRecentProject = () => {
                         </div>
                         <div className="view-details">
                                 <BsArrowUpRightSquare />
-                                <a className='live-server-link' target='_blank' href='https://kelong-group.web.app/'>View Details</a>
+                                <Link className='live-server-link' to='/dental  '>View Details</Link>
                             </div>
                     </div>
                 </div>

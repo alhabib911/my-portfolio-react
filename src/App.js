@@ -3,10 +3,10 @@ import AboutMe from './AboutMe/AboutMe';
 import './App.css';
 import GetInTouch from './GetInTouch/GetInTouch';
 import MyAllProjects from './MyAllProjects/MyAllProjects';
-import ContactUs from './Pages/ContactUs/ContactUs';
 import Home from './Pages/Home/Home';
-import MyRecentProject from './Pages/MyRecentProject/MyRecentProject';
+import Dental from './ProjectDetails/Dental';
 import KelongGroup from './ProjectDetails/KelongGroup';
+import ZM from './ProjectDetails/ZM';
 
 function App() {
   return (
@@ -18,6 +18,8 @@ function App() {
         <Route path='/project' element = {<MyAllProjects></MyAllProjects>}></Route>
         <Route path='/contact' element ={<GetInTouch></GetInTouch>}></Route>
         <Route path='/kelong' element= {<KelongGroup></KelongGroup>}></Route>
+        <Route path='/zm' element = {<ZM></ZM>}></Route>
+        <Route path='/dental' element ={<Dental></Dental>}></Route>
       </Routes>
     </div>
   );
