@@ -6,6 +6,8 @@ import Dental from '../../image/Project/Dental.png'
 import { AiFillGithub } from 'react-icons/ai';
 import { AiFillEye } from 'react-icons/ai';
 import { BsArrowUpRightSquare } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
+
 
 const MyRecentProject = () => {
     return (
@@ -34,7 +36,8 @@ const MyRecentProject = () => {
                         </div>
                             <div className="view-details">
                                 <BsArrowUpRightSquare />
-                                <a className='live-server-link' target='_blank' href='https://kelong-group.web.app/'>View Details</a>
+                                <Link className='live-server-link' to='/kelong  '>View Details</Link>
+                                
                             </div>
                     </div>
                 </div>

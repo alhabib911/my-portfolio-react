@@ -1,0 +1,135 @@
+.project-slider{
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+}
+.project-title h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: #077DE5;
+    text-align: center;
+    margin-top: 30px;
+}
+.project-title h5{
+    font-weight: 600;
+    color: #5d7183;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.project-feature{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.project-feature img{
+    width: 80px;
+    border: 1px solid #5d7183;
+    border-radius: 50%;
+}
+.carousel img{
+    height: 900px;
+}
+.site-link{
+    background-color: #F8F9FA;
+    margin-top: 25px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+.admin-area{
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    padding: 15px;
+}
+.admin-feature-image-side img{
+    width: 700px;
+    border: 1px solid #077DE5;
+    border-radius: 5px;
+}
+.admin-feature-side{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.github-link-feature{
+    display: flex;
+    align-items: center;
+    border: 1px solid #077DE5;
+    padding: 8px 18px;
+    border-radius: 5px;
+    color: #077DE5;
+}
+
+
+/* 376px to Max- 425px Mobile View */
+@media only screen and (max-width: 425px) {
+    .carousel img {
+        height: 600px;
+    }
+    .project-feature {
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+    .carousel{
+        width: 385px;
+    }
+    .project-slider {
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .admin-area {
+        background-color: #F8F9FA;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 70px;
+        padding: 15px;
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+/* 426px to Max- 768px Mobile View */
+@media only screen and (min-width:426px) and (max-width:768px) {
+    .carousel img {
+        height: 690px;
+    }
+    .project-feature {
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        justify-items: center;
+    }
+    .carousel{
+        width: 640px;
+    }
+    .project-slider {
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .admin-area {
+        background-color: #F8F9FA;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 70px;
+        padding: 15px;
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+/* 769px to Max- 992px Tablet View */
+@media only screen and (min-width:769px) and (max-width:992px) {
+    
+}
