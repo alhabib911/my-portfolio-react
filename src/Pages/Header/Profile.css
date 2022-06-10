@@ -1,59 +1,70 @@
-.header{
+.header {
     background-color: #F8F9FA;
 }
-.profile-container{
+
+.profile-container {
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
-.type-animition{
+
+.type-animition {
     font-size: 28px;
 }
-.welcome-title{
+
+.welcome-title {
     font-size: 26px;
 }
-.name{
+
+.name {
     font-size: 52px;
     font-weight: 600;
     color: #077DE5;
 }
-.profile-img-container img{
+
+.profile-img-container img {
     width: 400px;
     margin-bottom: 70px;
 }
-.type-animition{
+
+.type-animition {
     display: flex;
 }
-.type-animition p{
+
+.type-animition p {
     margin-right: 5px;
 }
-.profile-title-container{
+
+.profile-title-container {
     margin-top: 100px;
 }
-.profile-container-button{
+
+.profile-container-button {
     display: flex;
     align-items: center;
     margin-top: 25px;
 }
-.hire-me{
+
+.hire-me {
     margin-right: 15px;
     background-color: #077DE5;
     color: #fff;
     padding: 11px 18px;
     border-radius: 5px;
 }
-.hire-me:hover{
+
+.hire-me:hover {
     margin-right: 15px;
     background-color: #00549e;
     color: #fff;
     padding: 8px 18px;
     border-radius: 5px;
 }
-.resume-dwn-btn{
-    
-}
-.resume-download-section{
+
+.resume-dwn-btn {}
+
+.resume-download-section {
     display: flex;
     align-items: center;
     margin-right: 15px;
@@ -62,31 +73,83 @@
     padding: 8px 18px;
     border-radius: 5px;
 }
-.resume-dwn-btn{
+
+.resume-dwn-btn {
     margin-left: 5px;
 }
 
-
-/* 376px to Max- 425px Mobile View */
-@media only screen and (max-width: 425px) {
+/*Max- 320px Mobile View */
+@media only screen and (max-width: 320px) {
     .profile-container {
         width: 80%;
         margin: auto;
         display: flex;
-        flex-direction:column-reverse ;
         justify-content: space-between;
+        flex-direction:column-reverse;
     }
     .profile-title-container{
         margin-top: 0px;
     }
+    .type-animition {
+        font-size: 22px;
+    }
+    .name {
+        font-size: 30px;
+        font-weight: 600;
+        color: #077DE5;
+    }
+    .profile-container-button {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    .resume-download-section {
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+        border: 1px solid #077DE5;
+        color: #077DE5;
+        padding: 8px 18px;
+        border-radius: 5px;
+        margin-top: 25px;
+    }
+    .about-link-section {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+}
+
+/* 320px to Max- 425px Mobile View */
+@media only screen and (min-width:321px) and (max-width:425px) {
+    .profile-container {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .profile-title-container {
+        margin-top: 0px;
+    }
+
     .name {
         font-size: 36px;
         font-weight: 600;
         color: #077DE5;
     }
-    .type-animition{
+
+    .type-animition {
         font-size: 20px;
     }
+
     .profile-container-button {
         display: flex;
         align-items: center;
@@ -94,30 +157,36 @@
         margin-bottom: 25px;
     }
 }
+
 /* 426px to Max- 768px Mobile View */
 @media only screen and (min-width:426px) and (max-width:768px) {
     .profile-container {
         width: 50%;
         margin: auto;
         display: flex;
-        flex-direction:column-reverse ;
+        flex-direction: column-reverse;
         justify-content: space-between;
     }
+
     .profile-img-container img {
         width: 305px;
         /* margin-bottom: 70px; */
     }
-    .profile-title-container{
+
+    .profile-title-container {
         margin-top: 0px;
     }
+
     .name {
         font-size: 36px;
         font-weight: 600;
         color: #077DE5;
     }
-    .type-animition{
+
+    .type-animition {
         font-size: 20px;
     }
+
     .profile-container-button {
         display: flex;
         align-items: center;
@@ -125,6 +194,7 @@
         margin-bottom: 25px;
     }
 }
+
 /* 769px to Max- 992px Tablet View */
 @media only screen and (min-width:769px) and (max-width:992px) {
     .profile-container {
@@ -133,21 +203,26 @@
         display: flex;
         justify-content: space-around;
     }
+
     .profile-img-container img {
         width: 305px;
         margin-left: 40px;
     }
-    .profile-title-container{
+
+    .profile-title-container {
         margin-top: 96px;
     }
+
     .name {
         font-size: 36px;
         font-weight: 600;
         color: #077DE5;
     }
-    .type-animition{
+
+    .type-animition {
         font-size: 20px;
     }
+
     .profile-container-button {
         display: flex;
         align-items: center;
