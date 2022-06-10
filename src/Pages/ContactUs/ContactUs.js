@@ -80,11 +80,11 @@ const ContactUs = () => {
                 </div>
                 <form className='contact-form' ref={form} onSubmit={sendEmail}>
                     <label>Name</label> <br />
-                    <input className='name-email' type="text" name="user_name" /> <br />
+                    <input className='name-email' type="text" name="user_name" required/> <br />
                     <label>Email</label> <br />
-                    <input className='name-email' type="email" name="user_email" /> <br />
+                    <input className='name-email' type="email" name="user_email" required/> <br />
                     <label>Message</label><br />
-                    <textarea name="message" /><br /> <br />
+                    <textarea name="message" required/><br /> <br />
                     <div className='message-submit-button'>
                         <FiSend/>
                         <input type="submit" value="Send" />

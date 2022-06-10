@@ -29,13 +29,13 @@
 }
 
 .img-1 {
-    width: 210px;
-    height: 300px;
+    width: 160px;
+    height: 260px;
 }
 
 .img-2 {
     width: 50px;
-    height: 300px;
+    height: 260px;
 }
 
 .live-server {
@@ -48,4 +48,7 @@
 }
 .live-server-link{
     margin-left: 5px;
+}
+.card-body{
+    padding-top: 0px;
 }

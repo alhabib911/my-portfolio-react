@@ -71,6 +71,9 @@
 .newsletter-button input{
     cursor: pointer;
 }
+.newsletter-form input:focus{
+    outline: none;
+}
 .copyright-area{
     background-color: #F8F9FA;
     margin-top: 15px;

@@ -8,6 +8,7 @@ import Skill from '../Skill/Skill';
 import Profile from '../Header/Profile';
 
 
+
 const Home = () => {
     return (
         <div>

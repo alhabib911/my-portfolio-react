@@ -66,9 +66,9 @@ const Footer = () => {
                         <h5>Newsletter</h5>
                         <form className='newsletter-form' ref={form} onSubmit={sendEmail}>
                             <label>Email</label> <br />
-                            <input className='name-email' type="email" name="user_email" placeholder='Enter Your Email' /> <br />
+                            <input className='name-email' type="email" name="user_email" placeholder='Enter Your Email' required/> <br />
                             <div className='newsletter-button'>
-                                <input type="submit" value="Send" />
+                                <input type="submit" value="Send" required />
                             </div>
                         </form>
                     </div>
