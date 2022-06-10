@@ -72,40 +72,40 @@ const KelongGroup = () => {
                         <figure><img className='mt-6' src={ReactIcon} /></figure>
                         <div class="card-body">
                             <h2 class="card-title"></h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                            <h3 className='card-header-text'>MERN-Stack Project</h3>
+                            <p>Font-End for most popular React Js with Node Js and Express For Back-End. MongoDB used for Database.</p>
                         </div>
                     </div>
                     <div class="card w-96 bg-base-100 shadow-xl">
                         <figure><img className='mt-6' src={Firebase} /></figure>
                         <div class="card-body">
                             <h2 class="card-title"></h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                            <h3 className='card-header-text'>Firebase Authentication System Implement</h3>
+                            <p>Email Password and Google login Authentication implemented.</p>
                         </div>
                     </div>
                     <div class="card w-96 bg-base-100 shadow-xl">
                         <figure><img className='mt-6' src={Responsive} /></figure>
                         <div class="card-body">
                             <h2 class="card-title"></h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                            <h3 className='card-header-text'>100% Responsive design</h3>
+                            <p>The entire layout is available to 100% fit for any sizes of screen.</p>
                         </div>
                     </div>
                     <div class="card w-96 bg-base-100 shadow-xl">
                         <figure><img className='mt-6' src={Admin} /></figure>
                         <div class="card-body">
                             <h2 class="card-title"></h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                            <h3 className='card-header-text'>Admin Dashboard</h3>
+                            <p>Admin have different access routes. After login admin can update their profile. He/she can order Manage, Products Add, User Manage and Product Manage.</p>
                         </div>
                     </div>
                     <div class="card w-96 bg-base-100 shadow-xl">
                         <figure><img className='mt-6' src={user} /></figure>
                         <div class="card-body">
                             <h2 class="card-title"></h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                            <h3 className='card-header-text'>Customer Access Dashboard</h3>
+                            <p>Customer have different access routes. After login customer can update there profile. He/she can also product order, update their profile and share reviews.</p>
                         </div>
                     </div>
                 </div>
