@@ -46,7 +46,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="footer-text">
-                            <p>Welcome and open yourself to your truest <br /> love with me!  Visit my social media link to join me.</p>
+                            <p>Welcome and open yourself to your truest love with me! <br /> Visit my social media link to join me.</p>
                         </div>
                         <div className="social-media">
                             <a target='_blank' href="https://www.linkedin.com/in/dev-habib/"><BsLinkedin /></a>

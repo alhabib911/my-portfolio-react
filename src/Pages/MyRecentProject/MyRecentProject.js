@@ -5,6 +5,7 @@ import ZM from '../../image/Project/ZM.png'
 import Dental from '../../image/Project/Dental.png'
 import { AiFillGithub } from 'react-icons/ai';
 import { AiFillEye } from 'react-icons/ai';
+import { BsArrowUpRightSquare } from 'react-icons/bs';
 
 const MyRecentProject = () => {
     return (
@@ -20,6 +21,7 @@ const MyRecentProject = () => {
                             Kelong-Group
                         </h2>
                         <p>A full-stack responsive Manufacturer Website. Customer can order products, also make a review and admin can access product and order management.</p>
+                        <p><small>TECHNOLOGY: HTML, CSS, React Js, Tailwind, Daisy Ui, JWT, Node Js, Express Js, MongoDB, Firebase</small></p>
                         <div class="card-actions">
                             <div className="github-link">
                                 <AiFillGithub />
@@ -30,15 +32,22 @@ const MyRecentProject = () => {
                                 <a className='live-server-link' target='_blank' href='https://kelong-group.web.app/'>Live Site</a>
                             </div>
                         </div>
+                            <div className="view-details">
+                                <BsArrowUpRightSquare />
+                                <a className='live-server-link' target='_blank' href='https://kelong-group.web.app/'>View Details</a>
+                            </div>
                     </div>
                 </div>
                 <div class="card w-96 bg-base-100 shadow-xl">
-                    <figure><img src={ZM} /></figure>
+                    
+                    <figure>
+                        <img src={ZM} /></figure>
                     <div class="card-body">
                         <h2 class="card-title">
                             Zayn & Myza Warehouse Management
                         </h2>
                         <p>A full-stack responsive Warehouse Management Website. User can update product and also see their own upload product and also update, Edit and delete access.</p>
+                        <p><small>TECHNOLOGY: HTML, CSS, React Js, React-Bootstrap, JWT, Node Js, Express Js, MongoDB, Firebase</small></p>
                         <div class="card-actions">
                             <div className="github-link">
                                 <AiFillGithub />
@@ -49,6 +58,10 @@ const MyRecentProject = () => {
                                 <a className='live-server-link' target='_blank' href='https://zayn-9e9756.web.app/'>Live Site</a>
                             </div>
                         </div>
+                        <div className="view-details">
+                                <BsArrowUpRightSquare />
+                                <a className='live-server-link' target='_blank' href='https://kelong-group.web.app/'>View Details</a>
+                            </div>
                     </div>
                 </div>
                 <div class="card w-96 bg-base-100 shadow-xl">
@@ -58,6 +71,7 @@ const MyRecentProject = () => {
                             Jackson Dental Care
                         </h2>
                         <p>Client interface website is Jackson Dental Care. Without user access cannot go to checkout page</p>
+                        <p><small>TECHNOLOGY: HTML, CSS, React Js, React-Bootstrap, Firebase</small></p>
                         <div class="card-actions">
                             <div className="github-link">
                                 <AiFillGithub />
@@ -68,6 +82,10 @@ const MyRecentProject = () => {
                                 <a className='live-server-link' target='_blank' href='https://jackson-dental-care.web.app/'>Live Site</a>
                             </div>
                         </div>
+                        <div className="view-details">
+                                <BsArrowUpRightSquare />
+                                <a className='live-server-link' target='_blank' href='https://kelong-group.web.app/'>View Details</a>
+                            </div>
                     </div>
                 </div>
             </div>
