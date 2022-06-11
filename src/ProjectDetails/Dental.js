@@ -18,40 +18,36 @@ const Dental = () => {
             <div className="project-slider">
                 <div className="project-title">
                     <h2>Frontend Design</h2>
-                </div>
-                <div class="carousel w-full">
-                    <div id="slide1" class="carousel-item relative w-full">
-                        <img src={First} class="w-full" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide3" class="btn btn-circle">❮</a>
-                            <a href="#slide2" class="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide2" class="carousel-item relative w-full">
-                        <img src={Secound} class="w-full" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide1" class="btn btn-circle">❮</a>
-                            <a href="#slide3" class="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide3" class="carousel-item relative w-full">
-                        <img src={Third} class="w-full" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide2" class="btn btn-circle">❮</a>
-                            <a href="#slide1" class="btn btn-circle">❯</a>
-                        </div>
-                    </div>
+                    <h5>Unique design with Email Password and Social Login Implement website</h5>
                 </div>
             </div>
             <div className="projects-details">
-                <div class="site-link">
-                    <div className="github-link-feature">
-                        <AiFillGithub />
-                        <a className='github-btn' target='_blank' href="https://github.com/alhabib911/jackson-dental-care-client-side">Font-End GitHub Link</a>
-                    </div>
-                    <div className="github-link">
-                        <AiFillEye />
-                        <a className='github-btn' target='_blank' href="https://jackson-dental-care.web.app/">Live Site Link</a>
+                <div className="site-area">
+                    <div className="site-overview">
+                        <div className="site-img">
+                            <img src={First} />
+                        </div>
+                        <div class="site-link">
+                            <div className="site-link-title">
+                                <h2>Jackson Dental Care <small>Font-End Project</small></h2>
+                                <p><span>Overview:</span>
+                                    <li>Email Password and Social login Authentication implemented and Responsive Design.</li>
+                                    <li>Authentication Error, Reset Password, Verify Email implemented.</li>
+                                    <li>An Admin can order Manage, Products Add, User Manage and Product Manage.</li>
+                                    <li>Without user access not possible to go checkout page.</li>
+                                </p>
+                                <h2><span>Technology:</span> <small>HTML, CSS, React Js, React-Bootstrap, Firebase</small></h2>
+                            </div>
+
+                            <div className="github-link-feature">
+                                <AiFillGithub />
+                                <a className='github-btn' target='_blank' href="https://github.com/alhabib911/jackson-dental-care-client-side">Font-End GitHub Link</a>
+                            </div>
+                            <div className="github-link">
+                                <AiFillEye />
+                                <a className='github-btn' target='_blank' href="https://jackson-dental-care.web.app/">Live Site Link</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="project-title">
@@ -82,6 +78,17 @@ const Dental = () => {
                             <h3 className='card-header-text'>100% Responsive design</h3>
                             <p>The entire layout is available to 100% fit for any sizes of screen.</p>
                         </div>
+                    </div>
+                </div>
+
+                <div className="screen-shot">
+                    <div className="screen-shot-title">
+                        <h2>Project Screenshots</h2>
+                    </div>
+                    <div className="screen-shot-img">
+                    <img src={First} alt="" />
+                        <img src={Secound} alt="" />
+                        <img src={Third} alt="" />
                     </div>
                 </div>
             </div>

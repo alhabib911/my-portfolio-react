@@ -24,43 +24,38 @@ const KelongGroup = () => {
                     <h2>Frontend Design</h2>
                     <h5>Unique shop design to make your business a true Manufacturer Website</h5>
                 </div>
-                <div class="carousel w-full">
-                    <div id="slide1" class="carousel-item relative w-full">
-                        <img src={First} class="w-full" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide3" class="btn btn-circle">❮</a>
-                            <a href="#slide2" class="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide2" class="carousel-item relative w-full">
-                        <img src={Secound} class="w-full" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide1" class="btn btn-circle">❮</a>
-                            <a href="#slide3" class="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide3" class="carousel-item relative w-full">
-                        <img src={Third} class="w-full" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide2" class="btn btn-circle">❮</a>
-                            <a href="#slide1" class="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                </div>
+
             </div>
             <div className="projects-details">
-                <div class="site-link">
-                    <div className="github-link-feature">
-                        <AiFillGithub />
-                        <a className='github-btn' target='_blank' href="https://github.com/alhabib911/whole-sale-website-fontend">Font-End GitHub Link</a>
-                    </div>
-                    <div className="github-link-feature">
-                        <AiFillGithub />
-                        <a className='github-btn' target='_blank' href="https://github.com/alhabib911/whole-sale-website-backend">Back-End GitHub Link</a>
-                    </div>
-                    <div className="github-link">
-                        <AiFillEye />
-                        <a className='github-btn' target='_blank' href="https://kelong-group.web.app/">Live Site Link</a>
+                <div className="site-area">
+                    <div className="site-overview">
+                        <div className="site-img">
+                            <img src={First} />
+                        </div>
+                        <div class="site-link">
+                            <div className="site-link-title">
+                                <h2>Kelong-Group Manufacturer Website <small>MERN-Stack Project</small></h2>
+                                <p><span>Overview:</span>
+                                    <li>Customer and Admin have different access routes. Social login implemented and Responsive</li>
+                                    <li>After login customers can product order, update their profile and share reviews.</li>
+                                    <li>An Admin can order Manage, Products Add, User Manage and Product Manage.</li>
+                                    <li>Use JWT for database security purposes.</li>
+                                </p>
+                                <h2><span>Technology:</span> <small>HTML, CSS, React Js, Tailwind, Daisy Ui, JWT, Node Js, Express Js, MongoDB, Firebase</small></h2>
+                            </div>
+                            <div className="github-link-feature">
+                                <AiFillGithub />
+                                <a className='github-btn' target='_blank' href="https://github.com/alhabib911/whole-sale-website-fontend">Font-End GitHub Link</a>
+                            </div>
+                            <div className="github-link-feature">
+                                <AiFillGithub />
+                                <a className='github-btn' target='_blank' href="https://github.com/alhabib911/whole-sale-website-backend">Back-End GitHub Link</a>
+                            </div>
+                            <div className="github-link">
+                                <AiFillEye />
+                                <a className='github-btn' target='_blank' href="https://kelong-group.web.app/">Live Site Link</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="project-title">
@@ -123,13 +118,22 @@ const KelongGroup = () => {
                                 <h2 class="card-title mt-6">Customer Profile</h2>
                                 <p>Customer had after login product order, update their profile and share reviews access.</p>
                             </div>
-                        </div>                        
+                        </div>
                     </div>
                     <div className="admin-feature-image-side">
                         <img src={AdminPanelImg} />
                     </div>
                 </div>
-
+                <div className="screen-shot">
+                    <div className="screen-shot-title">
+                        <h2>Project Screenshots</h2>
+                    </div>
+                    <div className="screen-shot-img">
+                        <img src={First} alt="" />
+                        <img src={Secound} alt="" />
+                        <img src={Third} alt="" />
+                    </div>
+                </div>
             </div>
             <Footer></Footer>
         </div>

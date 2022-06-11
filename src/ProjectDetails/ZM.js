@@ -22,44 +22,39 @@ const ZM = () => {
                     <h2>Frontend Design</h2>
                     <h5>Unique design to make your business a true Inventory Management Website</h5>
                 </div>
-                <div class="carousel w-full">
-                    <div id="slide1" class="carousel-item relative w-full">
-                        <img src={First} class="w-full" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide3" class="btn btn-circle">❮</a>
-                            <a href="#slide2" class="btn btn-circle">❯</a>
-                        </div>
+            </div>
+            <div className="projects-details">
+                <div className="site-area">
+                <div className="site-overview">
+                    <div className="site-img">
+                        <img src={First} />
                     </div>
-                    <div id="slide2" class="carousel-item relative w-full">
-                        <img src={Secound} class="w-full" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide1" class="btn btn-circle">❮</a>
-                            <a href="#slide3" class="btn btn-circle">❯</a>
+                    <div class="site-link">
+                        <div className="site-link-title">
+                            <h2>Zayn & Myza Warehouse Management <small>MERN-Stack Project</small></h2>
+                            <p><span>Overview:</span>
+                                <li>Email Password and Social login Authentication implemented and Responsive Design.</li>
+                                <li>Without user access not possible to update any product. User can see their own added product.</li>
+                                <li>Manage Inventory had product details and could be deleted.</li>
+                                <li>Use JWT for database security purposes.</li>
+                            </p>
+                            <h2><span>Technology:</span> <small>HTML, CSS, React Js, React-Bootstrap, JWT, Node Js, Express Js, MongoDB, Firebase</small></h2>
                         </div>
-                    </div>
-                    <div id="slide3" class="carousel-item relative w-full">
-                        <img src={Third} class="w-full" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide2" class="btn btn-circle">❮</a>
-                            <a href="#slide1" class="btn btn-circle">❯</a>
+
+                        <div className="github-link-feature">
+                            <AiFillGithub />
+                            <a className='github-btn' target='_blank' href="https://github.com/alhabib911/warehouse-managenent-website-fontend">Font-End GitHub Link</a>
+                        </div>
+                        <div className="github-link-feature">
+                            <AiFillGithub />
+                            <a className='github-btn' target='_blank' href="https://github.com/alhabib911/warehouse-managenent-website-backend">Back-End GitHub Link</a>
+                        </div>
+                        <div className="github-link">
+                            <AiFillEye />
+                            <a className='github-btn' target='_blank' href="https://zayn-9e9756.web.app/">Live Site Link</a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="projects-details">
-                <div class="site-link">
-                    <div className="github-link-feature">
-                        <AiFillGithub />
-                        <a className='github-btn' target='_blank' href="https://github.com/alhabib911/warehouse-managenent-website-fontend">Font-End GitHub Link</a>
-                    </div>
-                    <div className="github-link-feature">
-                        <AiFillGithub />
-                        <a className='github-btn' target='_blank' href="https://github.com/alhabib911/warehouse-managenent-website-backend">Back-End GitHub Link</a>
-                    </div>
-                    <div className="github-link">
-                        <AiFillEye />
-                        <a className='github-btn' target='_blank' href="https://zayn-9e9756.web.app/">Live Site Link</a>
-                    </div>
                 </div>
                 <div className="project-title">
                     <h2>Amazing features</h2>
@@ -111,7 +106,16 @@ const ZM = () => {
                         <img src={Interface} />
                     </div>
                 </div>
-
+                <div className="screen-shot">
+                    <div className="screen-shot-title">
+                        <h2>Project Screenshots</h2>
+                    </div>
+                    <div className="screen-shot-img">
+                    <img src={First} alt="" />
+                        <img src={Secound} alt="" />
+                        <img src={Third} alt="" />
+                    </div>
+                </div>
             </div>
             <Footer></Footer>
         </div>
