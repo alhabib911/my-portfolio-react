@@ -4,6 +4,7 @@ import AboutMe from './AboutMe/AboutMe';
 import './App.css';
 import GetInTouch from './GetInTouch/GetInTouch';
 import MyAllProjects from './MyAllProjects/MyAllProjects';
+import NotFoundPage from './NotFoundPage/NotFoundPage';
 import Home from './Pages/Home/Home';
 import Dental from './ProjectDetails/Dental';
 import KelongGroup from './ProjectDetails/KelongGroup';
@@ -22,6 +23,7 @@ function App() {
         <Route path='/zm' element = {<ZM></ZM>}></Route>
         <Route path='/dental' element ={<Dental></Dental>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+        <Route path='*' element={<NotFoundPage></NotFoundPage>}></Route>
       </Routes>
     </div>
   );

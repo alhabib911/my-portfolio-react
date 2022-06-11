@@ -1,0 +1,96 @@
+.page-not-found-container{
+    background-color: #F8F9FA;
+}
+.not-found-page-text h1 {
+    padding-top: 25px;
+    font-size: 120px;
+    font-weight: 800;
+    color: #39498E;
+    text-align: center;
+}
+
+.not-found-page-text p {
+    color: #ff0000;
+    font-weight: 500;
+    text-align: center;
+    font-size: 32px;
+    margin-top: -45px;
+}
+
+.not-found-page-img img {
+    width: 50%;
+    margin: auto;
+}
+.not-found-page-bottom-text p{
+    font-size: 18px;
+    text-align: center;
+}
+.go-home-btn a{
+    display: flex;
+    align-items: center;
+    padding: 6px 10px 6px 10px;
+    color: #077DE8;
+    gap: 5px;
+    
+}
+.go-home-btn{
+    border: 1px solid #077DE8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    margin: auto;
+    margin-top: 15px;
+}
+.not-found-page-bottom-text{
+    padding-bottom: 140px;
+}
+
+/* Max- 320px Mobile View */
+@media only screen and (max-width: 320px) {
+    .go-home-btn {
+        border: 1px solid #077DE8;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        width: 37%;
+        margin: auto;
+        margin-top: 15px;
+    }
+}
+/* 321px to Max- 425px Mobile View */
+@media only screen and (min-width:321px) and (max-width:425px) {
+    .go-home-btn {
+        border: 1px solid #077DE8;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        width: 37%;
+        margin: auto;
+        margin-top: 15px;
+    }
+}
+/* 426px to Max- 768px Mobile View */
+@media only screen and (min-width:426px) and (max-width:768px) {
+    .go-home-btn {
+        border: 1px solid #077DE8;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        width: 20%;
+        margin: auto;
+        margin-top: 15px;
+    }
+}
+/* 769px to Max- 992px Tablet View */
+@media only screen and (min-width:769px) and (max-width:992px) {
+    .go-home-btn {
+        border: 1px solid #077DE8;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        width: 20%;
+        margin: auto;
+        margin-top: 15px;
+    }
+}
