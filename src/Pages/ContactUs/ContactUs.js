@@ -68,13 +68,13 @@ const ContactUs = () => {
                     </div>
                     <div className="social-network">
                         <div className="linkedin">
-                            <BsLinkedin />
+                            <a target='-blank' href="https://www.linkedin.com/in/dev-habib/"><BsLinkedin /></a>
                         </div>
                         <div className="fb">
-                            <AiFillFacebook />
+                            <a target='-blank' href="https://www.facebook.com/habibdc2018"><AiFillFacebook /></a>
                         </div>
                         <div className="github">
-                            <BsGithub />
+                            <a target='-blank' href="https://github.com/alhabib911"><BsGithub /></a>
                         </div>
                     </div>
                 </div>

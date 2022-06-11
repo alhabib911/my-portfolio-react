@@ -1,0 +1,27 @@
+.blogs-section {
+    background-image: linear-gradient(#7F7FD5, #86A8E7,#91EAE4);
+    padding: 200px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-img img{
+    width: 400px;
+}
+.blog-title h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+}
+.blog-title p{
+    font-size: 16px;
+    color: #ffffff;
+}
+.social-media-icon{
+    margin-top: 20px;
+    display: flex;
+    font-size: 26px;
+    color: #ffffff;
+    gap: 8px;
+}

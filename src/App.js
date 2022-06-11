@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
+import Blogs from '../src/Blogs/Blogs';
 import AboutMe from './AboutMe/AboutMe';
 import './App.css';
 import GetInTouch from './GetInTouch/GetInTouch';
@@ -20,6 +21,7 @@ function App() {
         <Route path='/kelong' element= {<KelongGroup></KelongGroup>}></Route>
         <Route path='/zm' element = {<ZM></ZM>}></Route>
         <Route path='/dental' element ={<Dental></Dental>}></Route>
+        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
       </Routes>
     </div>
   );
