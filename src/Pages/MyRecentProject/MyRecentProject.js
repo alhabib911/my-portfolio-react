@@ -12,9 +12,6 @@ import { Link } from 'react-router-dom';
 const MyRecentProject = () => {
     return (
         <div className='recent-project'>
-            <div className="recent-project-title">
-                <h2>My Recent Projects</h2>
-            </div>
             <div className="recent-project-details">
                 <div class="card w-96 bg-base-100 shadow-xl">
                     <figure><img src={Kelong} /></figure>

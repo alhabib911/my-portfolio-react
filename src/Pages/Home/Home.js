@@ -16,6 +16,9 @@ const Home = () => {
             <Profile></Profile>
             <About></About>
             <Skill></Skill>
+            <div className="recent-project-title">
+                <h2>My <span>Recent Projects</span></h2>
+            </div>
             <MyRecentProject></MyRecentProject>
             <ContactUs></ContactUs>
             <Footer></Footer>

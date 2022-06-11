@@ -33,7 +33,7 @@ const ContactUs = () => {
     return (
         <div className='contact-container'>
             <div className="contact-page-title">
-                <h2>Get in Touch</h2>
+                <h2>Get <span>in Touch</span></h2>
             </div>
             <div className="contact-section">
                 <div className="info-icon">

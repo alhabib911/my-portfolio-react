@@ -9,6 +9,9 @@
     margin-bottom: 30px;
     padding-top: 30px;
 }
+.contact-page-title span{
+    color: #3a3a64;
+}
 .contact-section{
     width: 80%;
     margin: auto;

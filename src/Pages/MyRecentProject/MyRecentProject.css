@@ -18,6 +18,9 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.recent-project-title span{
+    color: #3A3A64;
+}
 .card-actions {
     display: flex;
     flex-wrap: wrap;

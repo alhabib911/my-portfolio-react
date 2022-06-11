@@ -2,6 +2,9 @@
     width: 80%;
     margin: auto;
 }
+.about-title span{
+    color: #3A3A5F;
+}
 .about-title h2{
     font-size: 28px;
     font-weight: 600;
