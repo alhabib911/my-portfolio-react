@@ -8,6 +8,7 @@ import NotFoundPage from './NotFoundPage/NotFoundPage';
 import Home from './Pages/Home/Home';
 import Dental from './ProjectDetails/Dental';
 import KelongGroup from './ProjectDetails/KelongGroup';
+import Knot from './ProjectDetails/Knot/Knot';
 import ZM from './ProjectDetails/ZM';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/project' element = {<MyAllProjects></MyAllProjects>}></Route>
         <Route path='/contact' element ={<GetInTouch></GetInTouch>}></Route>
         <Route path='/kelong' element= {<KelongGroup></KelongGroup>}></Route>
+        <Route path='/knot' element={<Knot/>}></Route>
         <Route path='/zm' element = {<ZM></ZM>}></Route>
         <Route path='/dental' element ={<Dental></Dental>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
